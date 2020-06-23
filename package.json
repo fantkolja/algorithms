@@ -1,0 +1,26 @@
+{
+  "name": "algorithms",
+  "version": "0.0.0",
+  "description": "Learn algorithms",
+  "main": "index.js",
+  "scripts": {
+    "algo": "ts-node ./",
+    "debug": "node  --inspect-brk ./node_modules/ts-node/dist/bin ./"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fantkolja/algorithms.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fantkolja/algorithms/issues"
+  },
+  "homepage": "https://github.com/fantkolja/algorithms#readme",
+  "dependencies": {
+    "@types/node": "^14.0.13",
+    "inquirer": "^7.2.0",
+    "ts-node": "^8.10.2",
+    "typescript": "^3.9.5"
+  }
+}
